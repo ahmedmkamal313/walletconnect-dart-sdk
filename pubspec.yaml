@@ -6,26 +6,26 @@ repository: https://github.com/RootSoft/walletconnect-dart-sdk
 issue_tracker: https://github.com/RootSoft/walletconnect-dart-sdk/issues
 
 environment:
-  sdk: ">=2.14.0 <3.0.0"
+  sdk: ">=2.14.0 <4.0.0"
 
 dependencies:
   # WebSocket Channel
-  web_socket_channel: ^2.1.0
+  web_socket_channel: ^3.0.1
 
   # UUID
-  uuid: ^3.0.5
+  uuid: ^4.5.1
 
   # Cryptography
-  cryptography: ^2.0.5
+  cryptography: ^2.7.0
 
   # Hex
-  convert: ^3.0.1
+  convert: ^3.1.2
 
   # JSON Annotation
-  json_annotation: ^4.4.0
+  json_annotation: ^4.9.0
 
   # Stack trace
-  stack_trace: ^1.10.0
+  stack_trace: ^1.12.0
 
 dev_dependencies:
   # Testing framework
